@@ -64,4 +64,10 @@ a {
   font-size: 24px;
   line-height: 2;
   padding-bottom: 50px;
+  border-left: 2px solid #dfd3e2;
+}
+
+.poem strong {
+  color: #2f2431;
+  font-family: "Lavishly Yours", cursive;
 }
