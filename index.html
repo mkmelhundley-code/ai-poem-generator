@@ -4,40 +4,57 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap"
+      rel="stylesheet"
+    />
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Poem Generator</h1>
-    </header>
-    <main>
-      <form action="">
-        <input
-          type="text"
-          placeholder="Enter the topic for your poem..."
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>The poem will go here</div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/mkmelhundley-code" target="_blank"
-        >Melissa Hundley</a
-      >, is open-sourced on
-      <a
-        href="https://github.com/mkmelhundley-code/ai-poem-generator"
-        target="_blank"
-        >GitHub</a
-      >
-      and hosted on
-      <a href="https://ai-poem-generator-hazel.vercel.app/" target="_blank"
-        >Vercel</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Enter the topic for your poem..."
+            autofocus
+            required
+            autocomplete="off"
+            class="prompt-input"
+          />
+          <input type="submit" class="poem-button" />
+        </form>
+        <div class="poem">The poem will go here</div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/mkmelhundley-code" target="_blank"
+          >Melissa Hundley</a
+        >, is open-sourced on
+        <a
+          href="https://github.com/mkmelhundley-code/ai-poem-generator"
+          target="_blank"
+          >GitHub</a
+        >
+        and hosted on
+        <a href="https://ai-poem-generator-hazel.vercel.app/" target="_blank"
+          >Vercel</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
